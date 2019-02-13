@@ -1,0 +1,23 @@
+{
+  "name": "klik-daily-test",
+  "version": "1.0.0",
+  "description": "Klik Daily senior javascript tests",
+  "main": "game.js",
+  "scripts": {
+    "test": "jest game.spec.js --notify",
+    "start": "node game.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taufiq-maulana/klik-daily-guess-the-word.git"
+  },
+  "author": "Taufiq Maulana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taufiq-maulana/klik-daily-guess-the-word/issues"
+  },
+  "homepage": "https://github.com/taufiq-maulana/klik-daily-guess-the-word#readme",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}
